@@ -15,7 +15,10 @@
 | ...         | ...                  | ...                                                          |
 
 ## 软件更新：勾选前三，云代码选择阿里云镜像
-
+#重要 
+kinetic 勾选前四 选择中国服务器
+选择清华的源，目前中科大的会报错
+参考：http://www.autolabor.com.cn/book/ROSTutorials/chapter1/12-roskai-fa-gong-ju-an-zhuang/124-an-zhuang-ros.html
 
 
 # 二.安装步骤
@@ -75,7 +78,7 @@ $ rosdep update
 
   $ sudo apt install python-rosinstall python-rosinstall-generator python-wstool build-essential
   安装
-
+  
 ## 7.验证是否安装成功
 
 roscore 
